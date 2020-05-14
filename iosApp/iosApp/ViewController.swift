@@ -8,10 +8,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
         
-        showItems(items: ["A", "B", "C"].map { "Fact: " + $0 })
+        showItems([ "Fact: A",  "Fact: B",  "Fact: C"])
     }
     
-    func showItems(items: [String]) {
+    func showItems(_ items: [String]) {
         let scrollView = UIScrollView()
         view.addSubview(scrollView)
         scrollView.snp_makeConstraints { (make) in
@@ -25,23 +25,17 @@ class ViewController: UIViewController {
             make.left.right.equalTo(view)
         }
         
-        var prev: UIView = contentView
-        let last = items.last
+        let fullText = items.joined(separator: "\n\n")
         
-        for i in items {
-            let label = UILabel()
-            contentView.addSubview(label)
-            label.numberOfLines = 0
-            label.text = String(i)
-            
-            label.snp_makeConstraints { (make) in
-                make.left.right.equalTo(contentView).inset(30)
-                make.top.equalTo(prev).offset(30)
-                if i == last {
-                    make.bottom.equalTo(contentView).offset(-20)
-                }
-            }
-            prev = label
+        let label = UILabel()
+        contentView.addSubview(label)
+        label.numberOfLines = 0
+        label.text = fullText
+        
+        label.snp_makeConstraints { (make) in
+            make.left.right.equalTo(contentView).inset(30)
+            make.top.equalTo(contentView).offset(30)
+            make.bottom.equalTo(contentView).offset(-20)
         }
     }
 }

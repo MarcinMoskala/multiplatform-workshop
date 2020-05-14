@@ -2,18 +2,16 @@
 <module external.linked.project.id=":app:iosTest" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="multiplatform-workshop" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="Native " allPlatforms="Native []" useProjectSettings="false" isTestModule="true" externalProjectId=":app">
+      <configuration version="3" platform="Common (experimental) " allPlatforms="JS []/JVM [1.6]/Native []" useProjectSettings="false" isTestModule="true" externalProjectId=":app">
         <dependsOnModuleNames>:app:commonTest</dependsOnModuleNames>
         <sourceSets>
-          <sourceSet>app_iosMain</sourceSet>
-          <sourceSet>app_commonTest</sourceSet>
           <sourceSet>app_commonMain</sourceSet>
+          <sourceSet>app_commonTest</sourceSet>
+          <sourceSet>app_iosMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />
         <compilerArguments>
-          <option name="languageVersion" value="1.3" />
-          <option name="apiVersion" value="1.3" />
           <option name="pluginOptions">
             <array>
               <option value="plugin:org.jetbrains.kotlin.android:experimental=true" />
@@ -23,10 +21,6 @@
           </option>
           <option name="pluginClasspaths">
             <array />
-          </option>
-          <option name="multiPlatform" value="true" />
-          <option name="errors">
-            <ArgumentParseErrors />
           </option>
         </compilerArguments>
       </configuration>
@@ -42,9 +36,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.mockk:mockk-dsl:1.9" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.mockk:mockk-common:1.9" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.3.60" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.3.60" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.60" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.3.61" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.3.61" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.61" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
@@ -54,277 +48,277 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="app_commonMain" scope="TEST" />
-    <orderEntry type="module" module-name="app_commonTest" scope="TEST" production-on-test="" />
     <orderEntry type="module" module-name="app_iosMain" scope="TEST" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - ImageCaptureCore [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - Accelerate [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - VideoSubscriberAccount [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - AddressBook [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - AddressBookUI [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - AdSupport [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - Speech [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - AssetsLibrary [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - AudioToolbox [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - AuthenticationServices [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - AVFoundation [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - AVKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - BackgroundTasks [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - builtin [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - PassKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CallKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CarPlay [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CFNetwork [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - ClassKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CloudKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CommonCrypto [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - Contacts [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - ContactsUI [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreAudio [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreAudioKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreAudioTypes [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreBluetooth [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreData [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreFoundation [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreGraphics [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - ImageIO [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreImage [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreLocation [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreMedia [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreMIDI [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreML [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreMotion [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreNFC [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreServices [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreSpotlight [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreTelephony [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreText [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreVideo [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CryptoTokenKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - darwin [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - DeviceCheck [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - EAGL [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - EventKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - EventKitUI [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - ExternalAccessory [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - FileProvider [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - FileProviderUI [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - Foundation [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - GameController [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - GameKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - GameplayKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - GLKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - GSS [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - HealthKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - HealthKitUI [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - HomeKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - iAd [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - Accounts [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - IdentityLookup [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - IdentityLookupUI [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - OSLog [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - iconv [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - Intents [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - IntentsUI [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - IOSurface [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - JavaScriptCore [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - LinkPresentation [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - LocalAuthentication [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - MapKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - MediaAccessibility [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - MediaPlayer [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - MediaToolbox [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - Messages [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - MessageUI [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - Metal [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - MetalKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - MetalPerformanceShaders [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - MetricKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - MobileCoreServices [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - ModelIO [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - MultipeerConnectivity [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - NaturalLanguage [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - Network [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - NetworkExtension [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - NewsstandKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - NotificationCenter [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - objc [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - OpenAL [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - OpenGLES [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - OpenGLES2 [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - OpenGLES3 [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - OpenGLESCommon [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - SoundAnalysis [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - CoreHaptics [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - PDFKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - PencilKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - Photos [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - PhotosUI [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - posix [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - PushKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - QuartzCore [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - QuickLook [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - QuickLookThumbnailing [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - ReplayKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - SafariServices [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - SceneKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - Security [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - Social [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - UserNotificationsUI [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - BusinessChat [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - SpriteKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - StoreKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - SystemConfiguration [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - Twitter [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - UIKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - UserNotifications [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - VisionKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - ARKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - VideoToolbox [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - Vision [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - WebKit [ios_x64]" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - stdlib" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - WatchConnectivity [ios_x64]" level="project" />
+    <orderEntry type="module" module-name="app_commonTest" scope="TEST" production-on-test="" />
+    <orderEntry type="module" module-name="app_commonMain" scope="TEST" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - zlib [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - WatchConnectivity [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreHaptics [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - Vision [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - VideoToolbox [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - iconv [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - VisionKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - UserNotifications [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - UIKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - Twitter [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - SystemConfiguration [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - StoreKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - SpriteKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - WebKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - UserNotificationsUI [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - Social [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - Security [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - SceneKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - SafariServices [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - ReplayKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - QuickLookThumbnailing [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - QuickLook [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - QuartzCore [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - PushKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - posix [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - PhotosUI [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - Photos [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - PencilKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - PDFKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - VideoSubscriberAccount [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - EventKitUI [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - SoundAnalysis [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - OpenGLESCommon [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - OpenGLES3 [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - OpenGLES2 [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - OpenGLES [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - OpenAL [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - objc [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - NotificationCenter [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - NewsstandKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - NetworkExtension [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - Network [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - NaturalLanguage [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - MultipeerConnectivity [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - ModelIO [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - MobileCoreServices [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - MetricKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - MetalPerformanceShaders [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - MetalKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - Metal [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - MessageUI [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - Messages [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - MediaToolbox [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - MediaPlayer [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - MediaAccessibility [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - MapKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - LocalAuthentication [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - LinkPresentation [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - JavaScriptCore [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - IOSurface [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - IntentsUI [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - Intents [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - Speech [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - OSLog [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - IdentityLookupUI [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - IdentityLookup [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - BusinessChat [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - iAd [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - HomeKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - HealthKitUI [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - HealthKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - GSS [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - GLKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - GameplayKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - GameKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - GameController [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - Foundation [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - FileProviderUI [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - FileProvider [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - ExternalAccessory [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreAudio [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - EventKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - EAGL [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - DeviceCheck [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - darwin [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CryptoTokenKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreVideo [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreText [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreTelephony [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreSpotlight [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreServices [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreNFC [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreMotion [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreML [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreMIDI [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreMedia [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreLocation [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreImage [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - ARKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreGraphics [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreFoundation [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreData [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreBluetooth [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreAudioTypes [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CoreAudioKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - AVKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - ContactsUI [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - Contacts [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CommonCrypto [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CloudKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - ClassKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CFNetwork [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CarPlay [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - CallKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - Accounts [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - builtin [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - BackgroundTasks [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - AdSupport [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - AVFoundation [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - AuthenticationServices [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - AudioToolbox [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - AssetsLibrary [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - AddressBook [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - ImageIO [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - AddressBookUI [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - PassKit [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - stdlib" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - ImageCaptureCore [ios_x64]" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/build/classes/kotlin/ios/main/app.klib!/" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/common/stdlib" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/Accelerate" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/Accounts" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/AddressBook" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/AddressBookUI" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/AdSupport" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/ARKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/AssetsLibrary" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/AudioToolbox" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/AuthenticationServices" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/AVFoundation" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/AVKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/BackgroundTasks" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/builtin" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/BusinessChat" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CallKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CarPlay" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CFNetwork" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/ClassKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CloudKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CommonCrypto" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/Contacts" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/ContactsUI" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreAudio" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreAudioKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreAudioTypes" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreBluetooth" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreData" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreFoundation" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreGraphics" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreHaptics" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreImage" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreLocation" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreMedia" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreMIDI" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreML" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreMotion" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreNFC" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreServices" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreSpotlight" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreTelephony" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreText" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CoreVideo" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/CryptoTokenKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/darwin" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/DeviceCheck" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/EAGL" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/EventKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/EventKitUI" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/ExternalAccessory" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/FileProvider" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/FileProviderUI" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/Foundation" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/GameController" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/GameKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/GameplayKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/GLKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/GSS" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/HealthKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/HealthKitUI" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/HomeKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/iAd" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/iconv" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/IdentityLookup" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/IdentityLookupUI" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/ImageCaptureCore" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/ImageIO" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/Intents" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/IntentsUI" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/IOSurface" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/JavaScriptCore" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/LinkPresentation" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/LocalAuthentication" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/MapKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/MediaAccessibility" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/MediaPlayer" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/MediaToolbox" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/Messages" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/MessageUI" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/Metal" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/MetalKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/MetalPerformanceShaders" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/MetricKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/MobileCoreServices" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/ModelIO" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/MultipeerConnectivity" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/NaturalLanguage" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/Network" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/NetworkExtension" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/NewsstandKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/NotificationCenter" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/objc" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/OpenAL" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/OpenGLES" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/OpenGLES2" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/OpenGLES3" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/OpenGLESCommon" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/OSLog" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/PassKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/PDFKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/PencilKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/Photos" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/PhotosUI" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/posix" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/PushKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/QuartzCore" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/QuickLook" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/QuickLookThumbnailing" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/ReplayKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/SafariServices" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/SceneKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/Security" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/Social" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/SoundAnalysis" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/Speech" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/SpriteKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/StoreKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/SystemConfiguration" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/Twitter" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/UIKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/UserNotifications" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/UserNotificationsUI" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/VideoSubscriberAccount" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/VideoToolbox" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/Vision" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/VisionKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/WatchConnectivity" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/WebKit" />
-          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.60/klib/platform/ios_x64/zlib" />
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.60/538bd29b2d5a7d278a7188f89c3b84183fa37f75/kotlin-stdlib-common-1.3.60.jar!/" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/common/stdlib" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/Accelerate" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/Accounts" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/AddressBook" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/AddressBookUI" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/AdSupport" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/ARKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/AssetsLibrary" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/AudioToolbox" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/AuthenticationServices" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/AVFoundation" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/AVKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/BackgroundTasks" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/builtin" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/BusinessChat" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CallKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CarPlay" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CFNetwork" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/ClassKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CloudKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CommonCrypto" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/Contacts" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/ContactsUI" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreAudio" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreAudioKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreAudioTypes" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreBluetooth" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreData" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreFoundation" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreGraphics" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreHaptics" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreImage" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreLocation" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreMedia" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreMIDI" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreML" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreMotion" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreNFC" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreServices" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreSpotlight" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreTelephony" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreText" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CoreVideo" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/CryptoTokenKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/darwin" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/DeviceCheck" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/EAGL" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/EventKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/EventKitUI" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/ExternalAccessory" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/FileProvider" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/FileProviderUI" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/Foundation" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/GameController" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/GameKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/GameplayKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/GLKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/GSS" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/HealthKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/HealthKitUI" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/HomeKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/iAd" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/iconv" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/IdentityLookup" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/IdentityLookupUI" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/ImageCaptureCore" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/ImageIO" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/Intents" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/IntentsUI" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/IOSurface" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/JavaScriptCore" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/LinkPresentation" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/LocalAuthentication" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/MapKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/MediaAccessibility" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/MediaPlayer" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/MediaToolbox" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/Messages" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/MessageUI" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/Metal" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/MetalKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/MetalPerformanceShaders" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/MetricKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/MobileCoreServices" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/ModelIO" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/MultipeerConnectivity" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/NaturalLanguage" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/Network" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/NetworkExtension" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/NewsstandKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/NotificationCenter" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/objc" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/OpenAL" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/OpenGLES" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/OpenGLES2" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/OpenGLES3" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/OpenGLESCommon" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/OSLog" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/PassKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/PDFKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/PencilKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/Photos" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/PhotosUI" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/posix" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/PushKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/QuartzCore" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/QuickLook" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/QuickLookThumbnailing" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/ReplayKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/SafariServices" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/SceneKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/Security" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/Social" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/SoundAnalysis" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/Speech" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/SpriteKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/StoreKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/SystemConfiguration" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/Twitter" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/UIKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/UserNotifications" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/UserNotificationsUI" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/VideoSubscriberAccount" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/VideoToolbox" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/Vision" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/VisionKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/WatchConnectivity" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/WebKit" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-macos-1.3.61/klib/platform/ios_x64/zlib" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.61/65abb71d5afb850b68be03987b08e2c864ca3110/kotlin-stdlib-common-1.3.61.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.60 - zlib [ios_x64]" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Kotlin/Native 1.3.61 - Accelerate [ios_x64]" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="app_iosMain" />
 </module>

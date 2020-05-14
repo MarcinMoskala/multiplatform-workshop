@@ -1,20 +1,16 @@
+include("app")
+
+enableFeaturePreview("GRADLE_METADATA")
+
 pluginManagement {
     resolutionStrategy {
         eachPlugin {
             if (requested.id.id == "kotlin-multiplatform") {
                 useModule("org.jetbrains.kotlin:kotlin-gradle-plugin:${requested.version}")
             }
+            if (requested.id.id == "kotlinx-serialization") {
+                useModule("org.jetbrains.kotlin:kotlin-serialization:${requested.version}")
+            }
         }
     }
-
-    repositories {
-        maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
-
-        mavenCentral()
-
-        maven { url 'https://plugins.gradle.org/m2/' }
-    }
 }
-rootProject.name = 'multiplatform-workshop'
-
-include ':app'

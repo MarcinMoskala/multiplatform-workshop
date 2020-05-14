@@ -10,11 +10,13 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    val api = FactsApi()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        getFacts { facts ->
+        api.getFacts { facts ->
             showFacts(facts)
         }
     }
@@ -26,8 +28,4 @@ class MainActivity : AppCompatActivity() {
             listView.layoutManager = LinearLayoutManager(this)
         }
     }
-}
-
-inline fun uiThread(crossinline f: () -> Unit) {
-    Handler(Looper.getMainLooper()).post { f() }
 }
